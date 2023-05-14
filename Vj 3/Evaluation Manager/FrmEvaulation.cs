@@ -16,6 +16,13 @@ namespace Evaluation_Manager {
             student = selectedStudent;
         }
 
+        private void FrmEvaluation_Load(object sender, EventArgs e)
+        {
+            SetFormText();
+            var activities = ActivityRepository.GetActivities();
+            cboActivities.DataSource = activities;
+        }
+
         private void SetFormText() {
             Text = student.FirstName + " " + Student.LastName;
         }
@@ -28,6 +35,11 @@ namespace Evaluation_Manager {
 
             numPoints.Minimum = 0;
             numPoints.MaximumSize = currentActivity.MaxPoints;
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

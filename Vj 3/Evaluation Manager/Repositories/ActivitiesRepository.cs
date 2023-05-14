@@ -15,7 +15,8 @@ namespace Evaluation_Manager.Repositories {
             string sql = $"SELECT * FROM Activities WHERE Id = {id}";
             DB.OpenConnection();
             var reader = DB.GetDataReader(sql);
-            if (reader.HasRows) {
+            if (reader.HasRows) 
+            {
                 reader.Read();
                 activity = CreateObject(reader);
                 reader.Close();
@@ -25,13 +26,16 @@ namespace Evaluation_Manager.Repositories {
             return activity;
         }
 
-        public static List<Activity> GetActivities() {
+        public static List<Activity> GetActivities() 
+        {
             var activities = new List<Activity>();
 
             string sql = "SELECT * FROM Activities";
             DB.OpenConnection();
             var reader = DB.GetDataReader(sql);
-            while (reader.Read()) {
+
+            while (reader.Read()) 
+            {
                 Activity activity = CreateObject(reader);
                 activities.Add(activity);
             }
@@ -42,7 +46,8 @@ namespace Evaluation_Manager.Repositories {
             return activities;
         }
 
-        private static Activity CreateObject(SqlDataReader reader) {
+        private static Activity CreateObject(SqlDataReader reader) 
+        {
             int id = int.Parse(reader["Id"].ToString());
             string name = reader["Name"].ToString();
             string description = reader["Description"].ToString();
