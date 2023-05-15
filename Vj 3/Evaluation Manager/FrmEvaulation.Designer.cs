@@ -40,6 +40,8 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancle = new System.Windows.Forms.Button();
             this.numPoints = new System.Windows.Forms.DomainUpDown();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // cboActivities
@@ -179,11 +181,19 @@
             this.numPoints.Text = "0";
             this.numPoints.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(118, 394);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.TabIndex = 17;
+            // 
             // FrmEvaulation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.numPoints);
             this.Controls.Add(this.btnCancle);
             this.Controls.Add(this.btnSave);
@@ -201,6 +211,7 @@
             this.Controls.Add(this.cboActivities);
             this.Name = "FrmEvaulation";
             this.Text = "FrmEvaulation";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,5 +235,6 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancle;
         private System.Windows.Forms.DomainUpDown numPoints;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }

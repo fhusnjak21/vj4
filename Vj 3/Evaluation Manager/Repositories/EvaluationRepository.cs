@@ -38,7 +38,7 @@ namespace Evaluation_Manager.Repositories {
         }
         private static Evaluation CreateObject(SqlDataReader reader) {
             int idActivities = int.Parse(reader["IdActivities"].ToString());
-            var activity = ActivityRepository.GetActivity(idActivities);
+            var activity = ActivitiesRepository.GetActivity(idActivities);
 
             int idStudents = int.Parse(reader["IdStudents"].ToString());
             var student = StudentRepository.GetStudent(idStudents);

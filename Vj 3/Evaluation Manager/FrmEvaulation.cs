@@ -25,12 +25,12 @@ namespace Evaluation_Manager {
         private void FrmEvaluation_Load(object sender, EventArgs e)
         {
             SetFormText();
-            var activities = ActivityRepository.GetActivities();
+            var activities = ActivitiesRepository.GetActivities();
             cboActivities.DataSource = activities;
         }
 
         private void SetFormText() {
-            Text = student.FirstName + " " + Student.LastName;
+            Text = student.FirstName + " " + student.LastName;
         }
 
         private void cboActivities_SelectedIndexChange(object sender, EventArgs e) {
