@@ -11,7 +11,9 @@ using System.Windows.Forms;
 
 namespace Evaluation_Manager {
     public partial class FrmEvaulation : Form {
-        public FrmEvaulation(Student selectStudent) {
+
+        private Student student;
+        public FrmEvaulation(Student selectedStudent) {
             InitializeComponent();
             student = selectedStudent;
         }

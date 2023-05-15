@@ -6,3 +6,11 @@ C:\Users\Filip\Source\Repos\fhusnjak21\vj4\Vj 3\Evaluation Manager\obj\Debug\Eva
 C:\Users\Filip\Source\Repos\fhusnjak21\vj4\Vj 3\Evaluation Manager\obj\Debug\Evaluation_Manager.Properties.Resources.resources
 C:\Users\Filip\Source\Repos\fhusnjak21\vj4\Vj 3\Evaluation Manager\obj\Debug\Evaluation Manager.csproj.GenerateResource.cache
 C:\Users\Filip\Source\Repos\fhusnjak21\vj4\Vj 3\Evaluation Manager\obj\Debug\Evaluation Manager.csproj.CoreCompileInputs.cache
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation Manager.csproj.AssemblyReference.cache
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation Manager.csproj.SuggestedBindingRedirects.cache
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation_Manager.FrmEvaulation.resources
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation_Manager.FrmLogin.resources
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation_Manager.FrmStudents.resources
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation_Manager.Properties.Resources.resources
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation Manager.csproj.GenerateResource.cache
+C:\Users\foi.LABOS\Desktop\Filip Husnjak\VJ 5\Vj 3\Evaluation Manager\obj\Debug\Evaluation Manager.csproj.CoreCompileInputs.cache
