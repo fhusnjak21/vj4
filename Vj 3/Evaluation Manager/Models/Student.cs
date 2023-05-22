@@ -46,7 +46,7 @@ namespace Evaluation_Manager.Models {
         }
 
         public bool HasGrade() {
-            bool hasgrade = true;
+            bool hasGrade = true;
             if (IsEvaluationComplete() == true) {
                 foreach (var evaluation in GetEvaluations()) {
                     if (evaluation.IsSufficientForGrade() == false) {
@@ -60,25 +60,25 @@ namespace Evaluation_Manager.Models {
             return hasGrade;
         }
 
-     public interface CalculateGrade() {
-        int grade = 0;
-        if(HasGrade() == true)
-            {
-            int totalPoints = CalculateTotalPoints();
-        if(totalPoints >= 91)
-            {
-                grade = 5;
+        public int CalculateGrade() {
+            int grade = 0;
+            if (HasGrade() == true) {
+
+                int totalPoints = CalculateTotalPoints();
+
+                if (totalPoints >= 91) {
+                    grade = 5;
+                }
+                if (totalPoints >= 81) {
+                    grade = 4;
+                }
+                if (totalPoints >= 71) {
+                    grade = 3;
+                }
+                if (totalPoints >= 61) {
+                    grade = 2;
+                } else { grade = 1; }
             }
-         if(totalPoints >= 81)
-            {
-                grade = 4;
-            }
-        if (totalPoints >= 71) {
-            grade = 3;
-        }
-        if (totalPoints >= 61) {
-            grade = 2;
-        } else grade = 1;
         }
     }
 }
