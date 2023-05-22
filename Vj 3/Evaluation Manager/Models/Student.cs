@@ -60,8 +60,7 @@ namespace Evaluation_Manager.Models {
             return hasGrade;
         }
 
-     public interface CalculateGrade()
-     {
+     public interface CalculateGrade() {
         int grade = 0;
         if(HasGrade() == true)
             {
